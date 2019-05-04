@@ -41,6 +41,126 @@ Max e Min(width e height): Define uma altura/largura maxima/minima ele nao vai s
 Unidades de mediadas: vh, %, px, rem(porcentagem em relação ao tamanho definido no root)
 Para texto: rem, px
 
+-Pseudo-class: hover,focus, first-child, nth-child(n), last-child, root
+ 
+first-child, nth-child(n), last-child: Muda um filho especifico
+Exemplo:
+Pega todo primeiro filho que é p
+p:first-child
+{
+ color:red;
+}
+
+div:first-child
+{
+
+}
+
+Especifica que sao para os filhos de container
+.container div:first-child
+{
+
+}
+.container p
+{
+
+}
+
+Filho direto:
+.container > p
+{
+
+}
+
+-Variáveis em css: tem que ser dentro do root
+.root
+{
+  --azul = #0vv1ff
+}
+
+div
+{
+backgorund: var(--azul)
+}
+
+
+-Position: relative, absolute e fixed
+
+Absolute se baseia pelo relative e nao pela pagina.
+Setar relative no pai e absolute no filho, pos o pai vai se tornar a referencia para o filho
+
+fixed: fica fixado na tela e nao sai com o scrool
+
+-Fontes:
+Para usar a do google fontes pega o link, costumiza(se quiser) e para a usar a costomização usa o comando font-weight
+OU
+Baixa a fonte:
+@font-face
+{
+  font-family: "Nome da fonte";
+  src: url("caminho da fonte");
+}
+
+-Icones -> Sites: font awesome, fontello(conversor de svg para fonte)
+OBS: usa o site Flaticon para baixar a imagem em svg
+
+Extras:
+-Box shadow -> site: cainuse
+-Clippy css (fazer formas geométricas)
+-Slick(para fazer carrossel)
+
+-Sites de apoio: w3schools, stack overflow, google
+
+->SEO & boa práticas
+O que fazer na sua página pra ela ser bem rankeada no google?
+
+Como fazer isso?
+5 tópicos:
+Boas práticas
+Acessibilidade
+Performance
+Usabilidade
+Segurança
+
+Boas práticas:
+usar ul,li para menu de navegação
+usar tag img ao invés de backgorund image
+
+para daltonismo: colorblind
+usar alt em img(e em outras tags)
+usar tab index
+
+@media -> 1800px, 1200px, 600px, 320px
+
+Ferramenta para verificar os intens citados: lighthouse, SEOptimer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
