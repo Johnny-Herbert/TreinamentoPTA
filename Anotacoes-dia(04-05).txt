@@ -1,0 +1,46 @@
+-Remover o ultimo commit:
+git reset HEAD~1
+git push -f origin master
+
+
+-Trabalho com branches:
+Criar branch: git checkout -b "Nome da branch"
+Mudar de branch: git checkout "Nome da branch"
+OBS: fazer pull request para unir as branchs
+
+site sobre branch: git-flow
+
+Resolver conflitos:
+Estando na branch secundária usar: git rebase master
+vai no vs code resolver os conflitos
+usa add
+usa continue
+quando acabar, usar git push -f origin "Branch secundária" para enviar as resoluções dos conflitos feitas na branch secundária
+
+html/css
+-Display
+Tem que botar display block para botar altura e largura.
+O display none faz sumir alguns componentes.
+O display block é padrão para varias tags
+
+OBS: para usar duas classes em um mesmo componente é só usar espaço.
+Exemplo: class = "Classe1 Classe2"
+A informação da classe de baixo sobrescreve o de cima
+
+-Responsividade
+Tag viewport
+Media query: 
+@media(condição)
+{
+
+}
+Quando a condição for aceita, executa os comandos que está dentro do media
+
+Max e Min(width e height): Define uma altura/largura maxima/minima ele nao vai se adptar a partir das cosias que estejam dentro, ele vai esconcer os conteudos.
+
+Unidades de mediadas: vh, %, px, rem(porcentagem em relação ao tamanho definido no root)
+Para texto: rem, px
+
+
+
+
