@@ -1,0 +1,32 @@
+->Modelagem:
+Banco de dados: Coleção de dados bem estruturados
+Não-estruturados vs Estruturado
+
+O que é um SGBD(Sistema de Gerenciamento de Banco de Dados)
+Exemplo: SQL, Firebase, mongoDB, SQLite
+
+SQL e NoSQL
+SQL: em forma de tabela, dentro de uma celula so pode ter um valor, nao pode ter uma tabela(entidade) como atributo
+NoSQL: pode ter uma tabela(entidade) como atributo
+
+Elementos básicos SQL:
+*Entidade
+*Atributo
+*Relação
+  ->Identificação
+  ->Cardinalidade
+  ->Ternário
+*Herança
+
+Como Estruturar um Banco de Dados?(No formato SQL)
+#1 - Entender o Problema(indentificar o que é importante para resolver o problema)
+#2 - Construir o Mini-Mundo(Textinho explicativo)
+#3 - Modelo Relacional
+#4 - Modelo Lógico(Chave primária e chave estrangeira)
+Exemplo:
+Fone(Codi(sublinhado), vol-max, desc)
+	Cod referencia Cliente(Cod)
+Celular(Codi(sublinhado), cor!, arm!)
+	Codi referencia Cliente(Cod)
+Cliente(Cod(sublinhado),[cpf!], nome)
+
