@@ -6,11 +6,13 @@ git push -f origin master
 -Trabalho com branches:
 Criar branch: git checkout -b "Nome da branch"
 Mudar de branch: git checkout "Nome da branch"
-OBS: fazer pull request para unir as branchs
+
+OBS: fazer pull request e merge para unir as branchs
 
 site sobre branch: git-flow
 
 Resolver conflitos:
+Antes de tudo da git pull
 Estando na branch secundária usar: git rebase master
 vai no vs code resolver os conflitos
 usa add
@@ -25,10 +27,13 @@ O display block é padrão para varias tags
 
 OBS: para usar duas classes em um mesmo componente é só usar espaço.
 Exemplo: class = "Classe1 Classe2"
-A informação da classe de baixo sobrescreve o de cima
+A informação da classe de baixo tem prioridade sobre a classe de cima
+E as informações do id tem prioridade sobre a classe
 
 -Responsividade
-Tag viewport
+Tag viewport:
+https://webdesign.tutsplus.com/pt/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972
+
 Media query: 
 @media(condição)
 {
