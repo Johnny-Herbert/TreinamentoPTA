@@ -1,0 +1,9 @@
+O pip freeze > requirements.txt so precisa ser usado quando for instalado algo, por exemplo pip install django
+
+So precisamos usar migrate se fizermos alguma alteração no models
+
+Tem que interligar a view e o template indo na url
+
+indicar que minha pasta onte esta o css é estatica(lá no settings)
+
+site: ccbv 
